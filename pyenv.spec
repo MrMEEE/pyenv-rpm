@@ -172,8 +172,8 @@ bats test/{pyenv,hooks,versions}.bats
 %dir %{_sysconfdir}/pyenv.d/exec/pip-rehash
 %{_bindir}/pyenv
 #
-%{_mandir}/man1/%{name}.1%{?ext_man}
-%{_mandir}/man1/python-build.1%{?ext_man}
+%{_mandir}/man1/%{name}.1
+%{_mandir}/man1/python-build.1
 
 %files bash-completion
 %{_datadir}/bash-completion/completions/pyenv
